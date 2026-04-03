@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Saira Stencil", "Times New Roman", sans-serif;
+  box-sizing: border-box;
+  border: 0.1rem solid black;
+}
+
+body {
+  margin: 0;
+}
+
+/* HEADER DEL SITO */
+#header {
+  text-align: center;
+}
+
+/* SEZIONE INTRODUZIONE */
+#introduzione h2 {
+  margin: 0;
+}
