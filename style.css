@@ -3,19 +3,22 @@
 * {
   font-family: "Saira Stencil", "Times New Roman", sans-serif;
   box-sizing: border-box;
-  border: 0.1rem solid black;
+  border: calc(1 / 16 * 1rem) solid black;
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
+  width: 85rem;
 }
 
 /* HEADER DEL SITO */
 #header {
+  /*font-size: 3.5rem;*/
   text-align: center;
 }
 
 /* SEZIONE INTRODUZIONE */
 #introduzione h2 {
+  /*font-size: 3rem;*/
   margin: 0;
 }
