@@ -3,7 +3,7 @@
 * {
   font-family: "Saira Stencil", "Times New Roman", sans-serif;
   box-sizing: border-box;
-  border: calc(1 / 16 * 1rem) solid black;
+  border: calc(1 / 16 * 1rem) solid red;
 }
 
 body {
@@ -21,4 +21,8 @@ body {
 #introduzione h2 {
   /*font-size: 3rem;*/
   margin: 0;
+}
+
+#introduzione p {
+  width: 25rem;
 }
