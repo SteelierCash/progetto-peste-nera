@@ -6,19 +6,21 @@
 
 body {
   margin: 0 auto;
-  width: 85rem;
+  /*width: 85rem;*/
 }
 
 /* HEADER DEL SITO */
 #header {
-  /*font-size: 3.5rem;*/
+  /*font-size: 3.5rem;
   text-align: center;
+  */
 }
 
 /* SEZIONE INTRODUZIONE */
 #introduzione h2 {
-  /*font-size: 3rem;*/
+  /*font-size: 3rem;
   margin: 0;
+  /*
 }
 
 #introduzione p {
