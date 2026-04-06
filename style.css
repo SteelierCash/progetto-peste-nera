@@ -4,6 +4,10 @@
   border: calc(1 / 16 * 1rem) solid red;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0 auto;
   /*width: 85rem;*/
