@@ -19,8 +19,8 @@ body {
   border-width: 1rem;
   border-style: solid;
   border-image-source: url("./imgs/pergamena-lati.png");
-  border-image-slice: 100;
-  border-image-repeat: round;
+  border-image-slice: 116 102;
+  border-image-repeat: repeat;
 
   padding: 1rem;
   margin: 2rem auto;
