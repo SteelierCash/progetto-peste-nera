@@ -1,32 +1,38 @@
 * {
   font-family: Georgia, "Times New Roman", Times, serif;
   box-sizing: border-box;
-  border: calc(1 / 16 * 1rem) solid red;
+  /*border: calc(1 / 16 * 1rem) solid red;*/
 }
 
 html {
   scroll-behavior: smooth;
+  background-image: url("./imgs/dipinto-background.png");
+  background-size: cover;
+  background-position: center center;
 }
 
 body {
-  margin: 0 auto;
-  /*width: 85rem;*/
+  background-image: url("./imgs/pergamena-sfondo.png");
+  background-repeat: repeat;
+  background-clip: padding-box;
+
+  border-width: 1rem;
+  border-style: solid;
+  border-image-source: url("./imgs/pergamena-lati.png");
+  border-image-slice: 100;
+  border-image-repeat: round;
+
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 75%;
 }
 
 /* HEADER DEL SITO */
 #header {
-  /*font-size: 3.5rem;
   text-align: center;
-  */
 }
 
 /* SEZIONE INTRODUZIONE */
 #introduzione h2 {
-  /*font-size: 3rem;
   margin: 0;
-  /*
-}
-
-#introduzione p {
-  /*width: 25rem;*/
 }
