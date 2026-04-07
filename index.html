@@ -8,9 +8,15 @@
   </head>
 
   <body>
-    <div id="header">
+    <section id="header">
       <h1>Progetto peste nera</h1>
-    </div>
+      <img
+        src="./imgs/medico-peste-nera.svg"
+        width="300"
+        height="300"
+        alt="Medico della peste nera"
+      >
+    </section>
     <section id="introduzione">
       <h2>Come spieghiamo l&apos;invisibile?</h2>
       <p>
@@ -21,12 +27,13 @@
       </p>
       <p>
         Per esempio la <a href="#teoria-miasmi">teoria dei miasmi</a>, oppure
-        quella del <a href="#castigo-divino">castigo divino del Medioevo</a>,
-        teorie nate per <em>placare la paura dell&apos;incertezza</em>.
+        quella del
+        <a href="#castigo-divino">castigo divino del Medioevo</a>, teorie nate
+        per <em>placare la paura dell&apos;incertezza</em>.
       </p>
       <p>
-        Una spiegazione <strong>completamente sbagliata</strong> &egrave; molto
-        pi&ugrave; rassicurante di non averne una.
+        Avere una spiegazione <strong>completamente sbagliata</strong> &egrave;
+        molto pi&ugrave; rassicurante di non averne una.
       </p>
       <p>
         Infatti, nel passato, se ti ammalavi, significava che
@@ -36,7 +43,7 @@
       <p>
         Anche nell&apos;et&agrave; moderna abbiamo questo problema,
         principalmente per le malattie in fase di ricerca. Invece di aspettare
-        una conclusione si danno scuse, per esempio
+        una conclusione si danno scuse, per esempio:
         <em>&quot;aveva uno stile di vita sbagliato&quot;</em>.
       </p>
     </section>
@@ -49,52 +56,96 @@
         dipendesse dall&apos;<em>armonia interna</em>
         di <strong>quattro liquidi fondamentali</strong>:
       </p>
-      <ul>
-        <li>Sangue</li>
-        <li>Flemma</li>
-        <li>Bile Gialla</li>
-        <li>Bile Nera</li>
+      <ul id="lista-liquidi">
+        <li>
+          <img
+            src="./imgs/elemento-sangue.svg"
+            width="50"
+            height="50"
+            alt="icona vento"
+          >
+          <p>Sangue</p>
+        </li>
+        <li>
+          <img
+            src="./imgs/elemento-flemma.svg"
+            width="50"
+            height="50"
+            alt="icona acqua"
+          >
+          <p>Flemma</p>
+        </li>
+        <li>
+          <img
+            src="./imgs/elemento-bile-gialla.svg"
+            width="50"
+            height="50"
+            alt="icona fuoco"
+          >
+          <p>Bile Gialla</p>
+        </li>
+        <li>
+          <img
+            src="./imgs/elemento-bile-nera.svg"
+            width="50"
+            height="50"
+            alt="icona terra"
+          >
+          <p>Bile Nera</p>
+        </li>
       </ul>
-      <p>
-        Il <strong>miasma</strong> era visto come una sorta di
-        <em>&quot;nebbia velenosa&quot;</em>
-        emanata da paludi, fognature o corpi in decomposizione, capace di
-        penetrare nel corpo degli uomini e infettarli.
-      </p>
-      <p>
-        Pi&ugrave; forte era l&apos;odore,
-        <strong>pi&ugrave; potente</strong>
-        era considerata la malattia. Questo port&ograve; all&apos;uso di profumi
-        e sostanze aromatiche come un modo per <em>respingere</em> i miasmi.
-      </p>
-      <p>
-        Questo era anche un motivo per cui la
-        <strong>maschera del medico della peste</strong>
-        era riempita, all&apos;interno del becco, con erbe aromatiche e spezie,
-        per <em>filtrare</em> l&apos;aria infetta.
-      </p>
+      <div id="primo-contenuto-teoria-miasmi">
+        <div>
+          <p>
+            Il <strong>miasma</strong> era visto come una sorta di
+            <em>&quot;nebbia velenosa&quot;</em>
+            emanata da paludi, fognature o corpi in decomposizione, capace di
+            penetrare nel corpo degli uomini e infettarli.
+          </p>
+          <p>
+            Pi&ugrave; forte era l&apos;odore,
+            <strong>pi&ugrave; potente</strong>
+            era considerata la malattia. Questo port&ograve; all&apos;uso di
+            profumi e sostanze aromatiche come un modo per <em>respingere</em> i
+            miasmi.
+          </p>
+          <p class="ultimo-paragrafo">
+            Questo era anche un motivo per cui la
+            <strong>maschera del medico della peste</strong>
+            era riempita, all&apos;interno del becco, con erbe aromatiche e
+            spezie, per <em>filtrare</em> l&apos;aria infetta.
+          </p>
+        </div>
+        <img src="./imgs/palude.svg" width="200" height="200" alt="Palude">
+      </div>
       <h3>Perch&eacute; la teoria sembrava funzionare?</h3>
       <p>
         La teoria miasmatica sembrava funzionare perch&eacute; si basava su
         un&apos;<strong>osservazione sperimentale corretta</strong>, pur traendo
         una <em>conclusione errata</em>:
       </p>
-      <ul>
-        <li>
-          <strong>L&apos;osservazione:</strong>
-          nelle zone sporche, la gente si ammalava di pi&ugrave;.
+      <ul id="miasmi-osservazione">
+        <li class="contiene-contenuto">
+          <p><strong>L&apos;osservazione</strong></p>
+          <p>Nelle zone sporche, la gente si ammalava di pi&ugrave;.</p>
         </li>
-        <li>
-          <strong>L&apos;errore logico:</strong>
-          si pensava che la causa fosse il miasma, mentre la
-          <em>vera causa</em>
-          erano i microrganismi che si moltiplicavano in quegli ambienti.
+        <li></li>
+        <li class="contiene-contenuto">
+          <p><strong>L&apos;errore logico</strong></p>
+          <p>
+            Si pensava che la causa fosse il miasma, mentre la
+            <em>vera causa</em>
+            erano i microrganismi che si moltiplicavano in quegli ambienti.
+          </p>
         </li>
-        <li>
-          <strong>L&apos;intervento:</strong>
-          le autorit&agrave; iniziarono a pulire le fognature e drenare le
-          paludi, il che elimin&ograve; <em>involontariamente</em> molti
-          microbi, facendo ammalare meno gente in futuro.
+        <li></li>
+        <li class="contiene-contenuto">
+          <p><strong>L&apos;intervento</strong></p>
+          <p>
+            Le autorit&agrave; iniziarono a pulire le fognature e drenare le
+            paludi, il che elimin&ograve; <em>involontariamente</em> molti
+            microbi, facendo ammalare meno gente in futuro.
+          </p>
         </li>
       </ul>
     </section>
