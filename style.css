@@ -129,3 +129,12 @@ a {
   border: none;
   align-self: flex-start;
 }
+
+/* SEZIONE PENSIERO MAGICO */
+#prima-sezione-pensiero-magico {
+  width: 75%;
+}
+
+#seconda-sezione-pensiero-magico {
+  width: 75%;
+}
