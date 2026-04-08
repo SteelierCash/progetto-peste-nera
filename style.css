@@ -65,6 +65,27 @@ a {
   margin-top: 0;
 }
 
+.divisione-orizzontale-paragrafi {
+  padding: 0;
+  margin: 1rem auto;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.divisione-orizzontale-paragrafi li {
+  height: 10rem;
+  border: 0.05rem solid #4a4a4a;
+  align-self: center;
+}
+
+.divisione-orizzontale-paragrafi .contiene-contenuto {
+  height: 100%;
+  width: 25%;
+  border: none;
+  align-self: flex-start;
+}
+
 /* HEADER DEL SITO */
 #header {
   display: flex;
@@ -109,27 +130,6 @@ a {
   margin: 0;
 }
 
-#miasmi-osservazione {
-  padding: 0;
-  margin: 1rem auto;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-}
-
-#miasmi-osservazione li {
-  height: 10rem;
-  border: 0.05rem solid #4a4a4a;
-  align-self: center;
-}
-
-#miasmi-osservazione .contiene-contenuto {
-  height: 100%;
-  width: 25%;
-  border: none;
-  align-self: flex-start;
-}
-
 /* SEZIONE PENSIERO MAGICO */
 #prima-sezione-pensiero-magico {
   width: 75%;
@@ -137,4 +137,13 @@ a {
 
 #seconda-sezione-pensiero-magico {
   width: 75%;
+}
+
+/* SEZIONE VIROLOGIA MODERNA */
+#lista-virologia-moderna li {
+  height: 6rem;
+}
+
+#lista-virologia-moderna .contiene-contenuto {
+  height: 100%;
 }
