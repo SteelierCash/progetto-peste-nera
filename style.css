@@ -147,3 +147,8 @@ a {
 #lista-virologia-moderna .contiene-contenuto {
   height: 100%;
 }
+
+/* SEZIONE VACCINI COVID */
+#lista-vaccini-covid .contiene-contenuto {
+  width: 45%;
+}
