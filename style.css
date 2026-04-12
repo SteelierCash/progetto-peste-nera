@@ -149,6 +149,11 @@ a {
 }
 
 /* SEZIONE VACCINI COVID */
+#lista-vaccini-covid li {
+  height: 8rem;
+}
+
 #lista-vaccini-covid .contiene-contenuto {
+  height: auto;
   width: 45%;
 }
