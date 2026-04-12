@@ -47,6 +47,10 @@ a {
   text-align: right;
 }
 
+.testo-centro {
+  text-align: center;
+}
+
 .sezione-flex-immagine {
   display: flex;
   justify-content: space-between;
@@ -156,4 +160,22 @@ a {
 #lista-vaccini-covid .contiene-contenuto {
   height: auto;
   width: 45%;
+}
+
+/* SEZIONE FAKE NEWS */
+#lista-fake-news li {
+  height: 8rem;
+}
+
+#fake-news .contiene-contenuto {
+  height: auto;
+  width: 45%;
+}
+
+#untori-moderni div {
+  width: 80%;
+}
+
+#motivo-fake-news div {
+  width: 80%;
 }
