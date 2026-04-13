@@ -1,7 +1,7 @@
 * {
   font-family: Georgia, "Times New Roman", Times, serif;
   box-sizing: border-box;
-  border: calc(1 / 16 * 1rem) solid red;
+  /*border: calc(1 / 16 * 1rem) solid red;*/
 }
 
 html {
