@@ -5,6 +5,7 @@
     <title>Progetto peste nera</title>
     <link href="./style.css" rel="stylesheet">
     <link href="./imgs/favicon.png" rel="icon">
+    <script src="./javascript.js" defer></script>
   </head>
 
   <body>
@@ -481,67 +482,70 @@
     <section id="differenze">
       <h2>Le differenze tra la peste nera e il COVID-19</h2>
       <div>
-        <h3>Peste nera</h3>
-        <ul>
-          <li>
-            <p><strong>Causa e conoscenza:</strong></p>
-            <p>
-              Era causata dal batterio <em>Yersinia pestis</em>, ma
-              all&apos;epoca la sua origine era
-              <strong>sconosciuta</strong>
-              alla scienza medievale.
-            </p>
-          </li>
-          <li>
-            <p><strong>Teorie e credenze:</strong></p>
-            <p>
-              Si pensava che fosse scatenata dai <em>miasmi</em> o inviata dal
-              <strong>potere divino</strong>
-              per punire i peccati dell&apos;umanit&agrave;.
-            </p>
-          </li>
-          <li>
-            <p><strong>Reazioni e rimedi:</strong></p>
-            <p>
-              La popolazione cercava la salvezza attraverso l&apos;<em
-                >espiazione</em
-              >
-              o cercava <strong>capri espiatori</strong> come gli untori,
-              finendo per diffondere di pi&ugrave; il contagio.
-            </p>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h3>COVID-19</h3>
-        <ul>
-          <li>
-            <p><strong>Causa e conoscenza:</strong></p>
-            <p>
-              &Egrave; causato da un <strong>virus</strong>, un microrganismo
-              studiato dalla
-              <em>virologia moderna</em>
-              e combattuto a <strong>livello molecolare</strong>.
-            </p>
-          </li>
-          <li>
-            <p><strong>Teorie e credenze:</strong></p>
-            <p>
-              Nonostante le numerose informazioni portate dalla scienza,
-              &egrave; sempre soggetto a <strong>fake news</strong>,
-              specialmente quelle diffuse
-              <em>digitalmente</em>.
-            </p>
-          </li>
-          <li>
-            <p><strong>Reazioni e rimedi:</strong></p>
-            <p>
-              Viene affrontato con <strong>tecnologie avanzate</strong> come i
-              <em>vaccini a mRNA</em>, farmaci antivirali e misure di igiene e
-              prevenzione.
-            </p>
-          </li>
-        </ul>
+        <div id="differenze-peste-nera">
+          <ul>
+            <li>
+              <p><strong>Causa e conoscenza:</strong></p>
+              <p>
+                Era causata dal batterio <em>Yersinia pestis</em>, ma
+                all&apos;epoca la sua origine era
+                <strong>sconosciuta</strong>
+                alla scienza medievale.
+              </p>
+            </li>
+            <li>
+              <p><strong>Teorie e credenze:</strong></p>
+              <p>
+                Si pensava che fosse scatenata dai <em>miasmi</em> o inviata dal
+                <strong>potere divino</strong>
+                per punire i peccati dell&apos;umanit&agrave;.
+              </p>
+            </li>
+            <li>
+              <p><strong>Reazioni e rimedi:</strong></p>
+              <p>
+                La popolazione cercava la salvezza attraverso l&apos;<em
+                  >espiazione</em
+                >
+                o cercava <strong>capri espiatori</strong> come gli untori,
+                finendo per diffondere di pi&ugrave; il contagio.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="nascosto" id="differenze-covid">
+          <ul>
+            <li>
+              <p><strong>Causa e conoscenza:</strong></p>
+              <p>
+                &Egrave; causato da un <strong>virus</strong>, un microrganismo
+                studiato dalla
+                <em>virologia moderna</em>
+                e combattuto a <strong>livello molecolare</strong>.
+              </p>
+            </li>
+            <li>
+              <p><strong>Teorie e credenze:</strong></p>
+              <p>
+                Nonostante le numerose informazioni portate dalla scienza,
+                &egrave; sempre soggetto a <strong>fake news</strong>,
+                specialmente quelle diffuse
+                <em>digitalmente</em>.
+              </p>
+            </li>
+            <li>
+              <p><strong>Reazioni e rimedi:</strong></p>
+              <p>
+                Viene affrontato con <strong>tecnologie avanzate</strong> come i
+                <em>vaccini a mRNA</em>, farmaci antivirali e misure di igiene e
+                prevenzione.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div id="div-bottone-switch">
+          <button id="switch-peste-covid">Peste nera</button>
+        </div>
       </div>
     </section>
     <section id="fonti">
