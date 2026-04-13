@@ -241,9 +241,9 @@ a {
   background-position: center;
   background-color: transparent;
   background-size: 100%;
-  transition: background-size 0.4s;
+  transition: transform 0.4s;
 }
 
 #switch-peste-covid:hover {
-  background-size: 110%;
+  transform: scale(1.05);
 }
