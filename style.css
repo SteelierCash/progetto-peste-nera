@@ -89,6 +89,19 @@ a {
   text-align: center;
 }
 
+.margine-verticale-minimo {
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.25rem !important;
+}
+
+.margine-sopra-minimo {
+  margin-top: 0.25rem !important;
+}
+
+.margine-sotto-minimo {
+  margin-bottom: 0.25rem !important;
+}
+
 .sezione-flex-immagine {
   display: flex;
   justify-content: space-between;
@@ -218,10 +231,24 @@ a {
   width: 80%;
 }
 
+#paragrafo-soldi {
+  font-size: 3rem;
+}
+
 /* DIFFERENZE */
 #differenze ul {
   list-style-type: none;
   padding: 0;
+}
+
+#differenze-peste-nera li div p,
+#differenze-covid li div p {
+  margin: 0;
+}
+
+#differenze-peste-nera li div,
+#differenze-covid li div {
+  margin-bottom: 1rem;
 }
 
 #differenze > div {
